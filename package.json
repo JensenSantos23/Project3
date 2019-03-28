@@ -1,0 +1,27 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "Project3 built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.20",
+    "passport": "^0.4.0"
+  }
+}
