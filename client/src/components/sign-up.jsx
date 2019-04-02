@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import axios from 'axios'
+
 import './style.css'
 
 class Signup extends Component {
@@ -22,12 +23,13 @@ class Signup extends Component {
 		})
 	}
 	handleSubmit(event) {
+		event.preventDefault();
 		console.log('sign-up handleSubmit, username: ')
 		console.log(this.state.username)
-		event.preventDefault();
+		
 
 		//request to server to add a new username/password
-		axios.post('/user/', {
+		axios.post('//localhost:3001/signup', {
 			username: this.state.username,
 				password: this.state.password,
 				firstName: this.state.firstName,
@@ -47,7 +49,7 @@ class Signup extends Component {
 				}
 			}).catch(error => {
 				console.log('signup error: ')
-				console.log(error.response)
+				console.log(error)
 
 			})
 	}
@@ -61,7 +63,10 @@ class Signup extends Component {
 				<div className="SignUpContainer">
 					<div className="SignupForm">
 						<h4>Sign up</h4>
+						<br></br>
+
 						<form>
+							
 							<div className="form-group">
 								<label className="form-label" htmlFor="username"></label>
 								<input className="form-input"

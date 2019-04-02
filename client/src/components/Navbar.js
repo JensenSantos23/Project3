@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios'
 import { Link } from 'react-router-dom';
 
 
@@ -18,7 +19,7 @@ const Navbar = () => {
             
     
   
-                <li><Link to="/Home">Home</Link></li>
+                    <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/">Shop</Link></li>
                     <li><Link to="/signup">Signup</Link></li>
                     <li><Link to="/login">Log in</Link></li>
