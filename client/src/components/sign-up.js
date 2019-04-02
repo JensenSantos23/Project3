@@ -47,7 +47,7 @@ class Signup extends Component {
 				}
 			}).catch(error => {
 				console.log('signup error: ')
-				console.log(error)
+				console.log(error.response)
 
 			})
 	}
