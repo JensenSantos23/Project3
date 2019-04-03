@@ -70,7 +70,8 @@ dbm.once("open", function() {
   console.log("Mongoose connection successful.");
 });
 
-app.use('/user', user)
+app.use(user);
+app.use(api);
 // app.use('/api', api)
 
 
