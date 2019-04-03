@@ -32,7 +32,7 @@ class Cart extends Component{
                                     <div className="item-desc">
                                         <span className="title">{item.title}</span>
                                         <p>{item.desc}</p>
-                                        <p><b>Price: {item.price}$</b></p> 
+                                        <p><b>Price: ${item.price}</b></p> 
                                         <p>
                                             <b>Quantity: {item.quantity}</b> 
                                         </p>
@@ -43,7 +43,7 @@ class Cart extends Component{
                                         <button className="waves-effect waves-light btn pink remove" onClick={()=>{this.handleRemove(item.id)}}>Remove</button>
                                     </div>
                                     
-                                </li>
+                        </li>
                          
                     )
                 })
