@@ -8,7 +8,7 @@ const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 const passport = require('./passport');
 const user = require('./routes/user')
-// const api = require('./routes/api')
+const api = require('./routes/api')
 // const routes = require('./routes/api')
 
 app.use(function (req, res, next) {

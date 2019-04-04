@@ -1,39 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Cart from './components/Cart'
-import home from './components/mainpage'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
-import axios from 'axios'
-import Signup from './components/sign-up'
-import LoginForm from './components/login-form'
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Cart from './components/Cart';
+import home from './components/mainpage';
 
 
-
-
-// class App extends Component {
-//   render() {
-//     return (
-//        <BrowserRouter>
-//             <div className="App">
-
-//               <Navbar/>
-//                 <Switch>
-//                     <Route exact path="/" component={Home}/>
-//                     <Route path="/cart" component={Cart}/>
-//                   </Switch>
-//              </div>
-//        </BrowserRouter>
-
-//     );
-//   }
-// }
-
-// export default App;
-
+import axios from 'axios';
+import Signup from './components/sign-up';
+import LoginForm from './components/login-form';
 
 
 
@@ -128,3 +105,22 @@ class App extends Component {
 
 export default App;
 
+// class App extends Component {
+//   render() {
+//     return (
+//        <BrowserRouter>
+//             <div className="App">
+
+//               <Navbar/>
+//                 <Switch>
+//                     <Route exact path="/" component={Home}/>
+//                     <Route path="/cart" component={Cart}/>
+//                   </Switch>
+//              </div>
+//        </BrowserRouter>
+
+//     );
+//   }
+// }
+
+// export default App;
