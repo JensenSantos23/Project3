@@ -10,7 +10,7 @@ const Navbar = () => {
         
         <nav className="nav-wrapper">
         {/* burger-menu */}
-<div>
+            <div>
 				<Menu>
 					<a className="menu-item" href="/Home">Home</a>
                     <a className="menu-item" href="/">Shop</a>
@@ -49,11 +49,11 @@ const Navbar = () => {
 }
 
 
-
-
-
-
 export default Navbar;
+
+
+
+
 
 
 //import React, { Component } from 'react';
