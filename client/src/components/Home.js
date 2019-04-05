@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
 
+
  class Home extends Component{
     
     handleClick = (id)=>{

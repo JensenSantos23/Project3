@@ -3,7 +3,16 @@
     padding: 10px;
     margin-top: 10%;
     color: darkred;
+    
+  /* background-image: url("../images/image.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+    
+    
 }
+
+
+
 
 .LogInContainer {
     text-align: center;
@@ -11,6 +20,20 @@
     margin-top: 10%;
     color: darkred;
 }
+ .form-group {
+    width: 50%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;  
+   
+ /* background-image: url("../images/0.jpg"); */
+    background-color:rgb(190, 107, 107);
+    margin-top: -20px;
+    margin-bottom: 40px;
+
+
+}  
 
 input {
     text-align: center;
@@ -34,16 +57,194 @@ input {
     margin-top:  60px;
     margin-right: auto;
     display: block;
+    width: 80
+}
+
+
+
+
+   
+
+
+/* for comment sections */
+
+   #commentBox{
+    margin-left: auto;
+    margin-top:  60px;
+    margin-right: auto;
+    display: block;
     width: 80%;
 }
 
-body {
+#addCommentButton{
+    margin-top: 20px;
+}
+
+.commentForm {
+    text-align:center;
+}
+
+/* styling add to cart button */
+
+.carts{
+    background-color: #1b1a20;
+    color: #fff;
+    padding: 15px 0;
+    
+    margin-top: 10px;
+    cursor: pointer;
+    width:100%;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+}
+
+
+
+
+
+
+
+
+
+/* styling modal */
+.modal-wrapper {
+    background: white;
+    border: 1px solid #d0cccc;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    margin: 100px auto 0;
+    transition: all .8s;
+    width: 60%;
+}
+
+.modal-header {
+    background: #263238;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 20px;
+    text-align: right;
+}
+
+.modal-header h3 {
+    color: white;
+    float: left;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    background-color: white;
-    /* background-image: url("../images/2.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 }
+
+.modal-body {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.modal-footer {
+    background: #263238;
+    height: 35px;
+    padding: 15px;
+}
+
+.close-modal-btn {
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    margin: 0;
+}
+
+.close-modal-btn:hover {
+    color: black;
+}
+
+.btn-cancel, .btn-continue {
+    background: coral;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+}
+
+.btn-cancel {
+    background-color: #b71c1c;
+    float: left;
+}
+
+.btn-continue {
+    background-color: #1b5e20;
+    float: right;
+}
+
+.back-drop {
+    background-color: rgba(48, 49, 48, 0.42);
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+}
+
+.open-modal-btn {
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+/* styling burger button */
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 150px;
+    top: 20px;
+  }
+   
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #0c0c0c;
+  }
+   
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+   
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #0a0a0a;
+  }
+   
+  /* General sidebar styles */
+  .bm-menu {
+    /* background: rgba(0, 0, 0, 0.7); */
+    background-color: rgb(167, 99, 99);
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    text-align: left;
+  }
+   
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .bm-item-list a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+   
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
