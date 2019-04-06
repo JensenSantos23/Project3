@@ -2,7 +2,8 @@ import React from 'react';
 // import axios from 'axios'
 import { Link } from 'react-router-dom';
 import { slide as Menu }  from 'react-burger-menu';
-import '.style.css'
+
+//import '.style.css'
 
 const Navbar = () => {
 

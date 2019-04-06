@@ -75,7 +75,7 @@ class Home extends Component {
 
                             {this.state.isShowing ? <div onClick={this.closeModalHandler} className="back-drop"></div> : null}
 
-                            <button className="open-modal-btn" onClick={this.openModalHandler}  >gfhf</button>
+                            <button className="open-modal-btn" onClick={this.openModalHandler}  ></button>
 
 
                             <Modal
