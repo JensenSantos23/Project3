@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { slide as Menu }  from 'react-burger-menu';
 
-//import '.style.css'
+//import '.style.css';
 
 const Navbar = () => {
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <li><Link to="/signup">Signup</Link></li>
                     <li><Link to="/login">Login</Link></li>
                     {/* <li><Link to="/login">About Us</Link></li> */}
-                    <li><Link to="/comment">comment</Link></li>
+                    {/* <li><Link to="/comment">comment</Link></li> */}
                     <li><Link to="/cart">My cart</Link></li>
                     
                     <li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>
