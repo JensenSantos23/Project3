@@ -11,6 +11,7 @@ import home from './components/mainpage';
 import axios from 'axios';
 import Signup from './components/sign-up';
 import LoginForm from './components/login-form';
+//import Comments from './components/comments';
 
 
 
