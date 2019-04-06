@@ -5,7 +5,7 @@ class Recipe extends Component{
     
     componentWillUnmount() {
          if(this.refs.shipping.checked)
-              this.props.substractShipping()
+            this.props.substractShipping()
     }
 
     handleChecked = (e)=> {
